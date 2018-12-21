@@ -117,3 +117,9 @@ input[type="submit"]:focus{
     color:yellow;
     margin: 40px;
 }
+
+.admin{
+    margin-left: 25px;
+    margin-top: 80px;
+    color: yellow;
+}
