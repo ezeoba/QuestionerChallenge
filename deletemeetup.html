@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta http-equiv="refresh" content="2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0px;
+        }
+
+        h2, p{
+            color: white;
+        }
+        
+        .nav{
+            display: flex;
+            box-shadow: 0px 2px 36px #000000;
+            background: white;
+            margin-bottom: 5px; 
+    
+        }
+
+        .logo{
+            flex: 2;
+        }
+
+        .return{
+            text-decoration: none;
+            float: right;
+            margin-top: 10px;
+        }
+
+        .menu{
+            display: flex;
+            align-items: center;
+        }
+
+        .menu ul{
+            list-style-type: none;
+        }
+
+        .menu ul li{
+            display: inline;
+        }
+
+        .menu ul li a{
+            text-decoration: none;
+        }
+
+        .content{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .box1{
+            width: 15em;
+            height: 15em;
+            background: url('MyImage/ict.png') no-repeat;
+            margin-bottom: 2em;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .box2{
+            width: 15em;
+            height: 15em;
+            background: url('MyImage/health.jpg') no-repeat;
+            margin-bottom: 2em;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .box3{
+            width: 15em;
+            height: 15em;
+            background: url('MyImage/fitness.jpg') no-repeat;
+            margin-bottom: 2em;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .box4{
+            width: 15em;
+            height: 15em;
+            background: url('MyImage/creativity.jpg') no-repeat;
+            margin-bottom: 2em;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .box5{
+            width: 15em;
+            height: 15em;
+            background: url('MyImage/business.jpg') no-repeat;
+            margin-bottom: 2em;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .box6{
+            width: 15em;
+            height: 15em;
+            background: url('MyImage/meeting2.jpg') no-repeat;
+            margin-bottom: 2em;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .text{
+            width: 100%;
+            height: 3em;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .delete-btn{
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .footer{
+            height: 20vh;
+            background: #24292e;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn{
+            color: white;
+            padding: 6px 12px;
+            font-size: 14px;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        .btn-danger{
+            background: #dc3545;
+        }
+
+        .btn-success{
+            background: #28a745;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- nav -->
+    <div class="nav">
+        <div class="logo">
+            <img src="MyImage/meetup2.png" width="50" alt="">
+            <a href="index.html" class="return">Back to home</a>
+        </div>
+        <div class="menu">
+            <ul>
+                <!-- <li><a href="" class="btn btn-danger">Delete a meetup</a></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+        <div class="box1">
+            <div class="delete-btn">
+                <a href="" class="btn btn-danger">Delete meetup</a>
+            </div>
+            <div class="text">
+                <p>ICT Meetup </p>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="delete-btn">
+                <a href="" class="btn btn-danger">Delete meetup</a>
+            </div>
+            <div class="text">
+                <p>Health Meetup</p>
+            </div>
+        </div>
+
+        <div class="box3">
+            <div class="delete-btn3">
+                <a href="" class="btn btn-danger">Delete meetup</a>
+            </div>
+            <div class="text">
+                <p>Fitness Meetup</p>
+            </div>
+        </div>
+
+        <div class="box4">
+            <div class="delete-btn4">
+                <a href="" class="btn btn-danger">Delete meetup</a>
+            </div>
+            <div class="text">
+                <p>Creativity Meetup</p>
+            </div>
+        </div>
+
+        <div class="box5">
+            <div class="delete-btn5">
+                <a href="" class="btn btn-danger">Delete meetup</a>
+            </div>
+            <div class="text">
+                <p>Business Meetup</p>
+            </div>
+        </div>
+
+        <div class="box6">
+            <div class="delete-btn6">
+                <a href="" class="btn btn-danger">Delete meetup</a>
+            </div>
+            <div class="text">
+                <p>Food and nutrition Meetup</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2018 questionaire. All Rights Reserved.</p>
+
+    </div>
+</body>
+</html>
