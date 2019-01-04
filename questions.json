@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "createdOn": "2019-01-01",
+        "createdBy": 1,
+        "meetup": 1,
+        "title": "When is the get-together going to be?",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fugiat repudiandae ipsam ab dicta deserunt ex",
+        "votes": 1
+    }
+]

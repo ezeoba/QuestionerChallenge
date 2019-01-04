@@ -1,0 +1,141 @@
+[
+    {
+        "id": 1,
+        "createdOn": "2019-01-04",
+        "location": "Lagos",
+        "images": [
+            "images/christian-entrepreneurs.jpg"
+        ],
+        "topic": "The Lagos Christian Entrepreneur Meetup Group",
+        "happeningOn": "2019-02-04",
+        "tags": ["christian", "entrepreneur"]
+    },
+    {
+        "id": 2,
+        "createdOn": "2019-01-04",
+        "location": "Lagos",
+        "images": [
+            "images/learn-to-code-2019.jpg"
+        ],
+        "topic": "Learn to code 2019",
+        "happeningOn": "2019-02-04",
+        "tags": [
+            "code",
+            "programming"
+        ]
+    },
+    {
+        "id": 3,
+        "createdOn": "2019-01-04",
+        "location": "Lagos",
+        "images": [
+            "images/lagos-wordpress-community.jpg"
+        ],
+        "topic": "Lagos Wordpress Community",
+        "happeningOn": "2019-02-04",
+        "tags": [
+            "code",
+            "wordpress"
+        ]
+    },
+    {
+        "id": 4,
+        "createdOn": "2019-01-04",
+        "location": "Lagos",
+        "images": [
+            "images/unity3d-user-group-lagos-nigeria.jpg"
+        ],
+        "topic": "Unity User Group Lagos Nigeria",
+        "happeningOn": "2019-02-04",
+        "tags": [
+            "unity 3d",
+            "3d"
+        ]
+    },
+    {
+        "id": 5,
+        "createdOn": "2019-01-04",
+        "location": "Lagos",
+        "images": [
+            "images/nigeria-scaled-agile-framework.png"
+        ],
+        "topic": "Nigeria Scaled Agile Framework",
+        "happeningOn": "2019-02-04",
+        "tags": [
+            "agile framework",
+            "scaled agile framwork"
+        ]
+    },
+    {
+        "id": 6,
+        "createdOn": "2019-01-04",
+        "location": "Lagos",
+        "images": [
+            "images/gdg-ikorodu.jpg"
+        ],
+        "topic": "GDG Ikorodu",
+        "happeningOn": "2019-02-04",
+        "tags": [
+            "gdg",
+            "gdg ikorodu"
+        ]
+    },
+    {
+        "id": 7,
+        "createdOn": "2019-01-04",
+        "location": "Lagos",
+        "images": [
+            "images/nigerian-excel-users-meetup.jpg"
+        ],
+        "topic": "Nigerian Excel Users Meetup",
+        "happeningOn": "2019-02-04",
+        "tags": [
+            "nigerian excel users",
+            "excel"
+        ]
+    },
+    {
+        "id": 8,
+        "createdOn": "2019-01-04",
+        "location": "Lagos",
+        "images": [
+            "images/lekki-data-science-meetup.jpg"
+        ],
+        "topic": "Lekki Data Science Meetup",
+        "happeningOn": "2019-02-04",
+        "tags": [
+            "lekki data science",
+            "data science"
+        ]
+    },
+    {
+        "id": 9,
+        "createdOn": "2019-01-04",
+        "location": "Lagos",
+        "images": [
+            "images/eos-cafe-lagos.jpg"
+        ],
+        "topic": "EOS Cafe Lagos",
+        "happeningOn": "2019-02-04",
+        "tags": [
+            "eos",
+            "canon",
+            "nikon",
+            "photography"
+        ]
+    },
+    {
+        "id": 10,
+        "createdOn": "2019-01-04",
+        "location": "Lagos",
+        "images": [
+            "images/dotnet-lagos.png"
+        ],
+        "topic": "DotNet Lagos",
+        "happeningOn": "2019-02-04",
+        "tags": [
+            ".net",
+            ".net core"
+        ]
+    }
+]

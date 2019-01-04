@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "firstname": "Adaeze",
+        "lastname": "Amarachi",
+        "othername": "",
+        "email": "ada.amara@gmail.com",
+        "phoneNumber": "08012345678",
+        "username": "adanze",
+        "registered": "2019-01-01",
+        "isAdmin": false
+    }
+]
