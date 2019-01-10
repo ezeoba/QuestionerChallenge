@@ -1,0 +1,144 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+.nav{
+    background: white;
+    display: flex;
+    box-shadow: 0px 2px 6px #000000;
+    margin-bottom: 5px; 
+    margin-right: 0px;
+    background-color: #6B0F1A; 
+}
+
+.logo{
+    margin: 0px 0px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.box{
+    width: 15em;
+    height: 15em;
+    /* background: url('MyImage/food.jpg'); */
+    margin-bottom: 2em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.text{
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    background-color: #6B0F1A;
+    color: #DCE0D9;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vote{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ques{
+    flex:6;
+    max-width: 50em;
+}
+
+.form-control{
+    width: 80%;
+    height: 5em;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    /* box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.75); */
+}
+
+.panel{
+    background: #f5f5f5;
+    padding: 5px;
+    margin: 10px;
+    border-color: #ddd;
+    border-radius: 5px;
+    max-width: 70em;
+}
+
+.footer{
+    height: 20vh;
+    background: #6B0F1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.btn{
+    background-color: #6B0F1A;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn-danger{
+    margin-left: 1000px;
+}
+.btn-danger1{
+    margin-left: 30px;
+}
+
+.btn-failure{
+    background:#6B0F1A;
+}
+
+.btn-success{
+    background: #6B0F1A;
+    width: 60px;
+    padding-left: 25px;
+}
+
+.pagination{
+    display: inline-block;
+}
+.pagination a{
+    color: black;
+    float: left;
+    text-decoration: none;
+    padding: 8px 16px;
+}

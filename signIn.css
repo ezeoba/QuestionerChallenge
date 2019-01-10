@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    background-color: #DCE0D9;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.btn{
+    /* background-color: #010200; */
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+.btn-danger{
+    margin-left: 900px;
+}
+.btn-danger1{
+    margin-left: 30px;
+}
+.btn-danger2{
+    margin-left: 30px;
+}
+
+.nav{
+    background: white;
+    display: flex;
+    box-shadow: 0px 2px 6px #000000;
+    margin-bottom: 5px; 
+    margin-right: 0px;
+    background-color: #6B0F1A;
+}
+
+.container{
+    margin: 10% 33%;
+    border: 5px #6B0F1A solid;
+    padding: 20px;
+    text-align: center;
+    background-color: #DCE0D9;
+}
+
+input{
+    display: block;
+    padding: 10px;
+    margin-left: 90px;
+    width: 250px
+}
+
+.logo{
+    margin: 0px 0px;
+    height: 50px;
+    padding-left: 10px; 
+} 
+
+.asd{
+    padding: 6px 12px;
+    background: #6B0F1A;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.footer{
+    height: 20vh;
+    background: #6B0F1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
