@@ -1,15 +1,28 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #DCE0D9;
 }
 
-header
-{ 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5)), url(myImage/meetup3.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    
+
+.nav{
+        background: white;
+        display: flex;
+        box-shadow: 0px 2px 6px #000000;
+        margin-bottom: 5px; 
+        margin-right: 0px;
+        background-color: #6B0F1A; 
+} 
+
+.container{
+    padding: 16px;
+    border-color: white;
+    margin: 30px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
 
 .nav{
@@ -21,16 +34,14 @@ header
         background-color: #6B0F1A; 
 }
 
-h4{
-    color: #fff;
-}
-
 .biodata{
-    position: relative;
+    margin: 10% 39%;
+    border: 5px #6B0F1A solid;
+    background-color: #DCE0D9;
     top: 0;
     left: 0;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 20px;
     width: 300px;
     height: 400px;
     text-align: center;
@@ -41,7 +52,7 @@ h4{
     margin: 0 0 20px 0;
     font-weight: 300;
     font-size: 28px;
-    color: white;
+    color: #6B0F1A;
     text-align: center;
 }
 
@@ -51,7 +62,7 @@ input[type="password"]{
     box-sizing: border-box;
     margin-bottom: 20px;
     padding: 4px;
-    width: 350px;
+    width: 250px;
     height: 32px;
     border: none;
     outline: none;
@@ -93,21 +104,9 @@ input[type="submit"]:focus{
     padding-left: 10px;
 } 
 
-.container{
-    padding: 16px;
-    border-color: white;
-    margin: 30px;
-}
-
-.form{
-    border-color: aliceblue;
-    align-self: center;
-    margin: auto;
-}
-
 .asd{
     padding: 6px 12px;
-    background: #f44336;
+    background: #6B0F1A;
     text-decoration: none;
     color: white;
     font-size: 14px;
@@ -118,11 +117,6 @@ input[type="submit"]:focus{
 .asd:hover{
     color:black;
     transition: .2s;
-}
-
-.asdf{
-    color:yellow;
-    margin: 40px;
 }
 
 .menu{
@@ -145,16 +139,11 @@ input[type="submit"]:focus{
     font-size: 14px;
     border-radius: 4px;
     text-decoration: none;
-    /* margin-right: 10px;
-    margin-left: 500px; */
 }
 .btn-danger{
-    margin-left: 900px;
+    margin-left: 1000px;
 }
 .btn-danger1{
-    margin-left: 30px;
-}
-.btn-danger2{
     margin-left: 30px;
 }
 

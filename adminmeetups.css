@@ -1,0 +1,102 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    background-color: #DCE0D9;
+}
+
+h2, p{
+    color: white;
+}
+
+.nav{
+    background: white;
+    display: flex;
+    box-shadow: 0px 2px 6px #000000;
+    margin-bottom: 5px; 
+    margin-right: 0px;
+    background-color: #6B0F1A; 
+}
+
+.logo
+{
+    margin: 0px 0px;
+    height: 50px;
+    padding-left: 10px;
+} 
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 15em;
+    height: 15em;
+    /* background: url('MyImage/food.jpg'); */
+    margin-bottom: 2em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text{
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    background-color: #6B0F1A;
+}
+
+.delete-btn{
+    display: flex;
+    justify-content: baseline;
+    padding-left: 20%;
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.footer{
+    height: 20vh;
+    background: #6B0F1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.btn{
+    background-color: #010200;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn-danger{
+    margin-left: 1000px;
+}
+.btn-danger1{
+    margin-left: 30px;
+}

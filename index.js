@@ -38,7 +38,7 @@ app.get('/api/v1/meetups/:id', function (req, res) {
 
 
 /************************************* //POST /meetups/ ************************/
-app.post('/api/v1/meetups', function (req, res) {
+app.post('/apimeetups/v1/', function (req, res) {
     if(!req.body.location){
         res.send({"status": 400, "error": "the location field is required"});
     }else if(!req.body.images){
